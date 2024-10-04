@@ -1,0 +1,15 @@
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\bin\Debug\net8.0\CSharp-String.exe
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\bin\Debug\net8.0\CSharp-String.deps.json
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\bin\Debug\net8.0\CSharp-String.runtimeconfig.json
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\bin\Debug\net8.0\CSharp-String.dll
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\bin\Debug\net8.0\CSharp-String.pdb
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.AssemblyInfoInputs.cache
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.AssemblyInfo.cs
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.csproj.CoreCompileInputs.cache
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.sourcelink.json
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.dll
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\refint\CSharp-String.dll
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.pdb
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\CSharp-String.genruntimeconfig.cache
+C:\Users\Faiza\Documents\allDotnet\CSharp-String\obj\Debug\net8.0\ref\CSharp-String.dll

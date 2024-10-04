@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
 
 //1. Escape Characters
@@ -8,33 +8,47 @@ Console.WriteLine("Hello, World!");
 //Hello, "World!"
 //Welcome to C# Programming.
 //Make sure to include the quotes around "World!" and ensure "Welcome to C# Programming." appears on a new line.
+Console.WriteLine("Hello, \"World!\"\nWelcome to C# Programming.");
 
 
 //Q2: Write a C# program that prints the following file path using escape characters:
 //C:\Users\JohnDoe\Documents\MyFile.txt
-
+Console.WriteLine("c:\\users\\JohnDoe\\Documents\\MyFile.txt");
 
 
 //2. Verbatim String Literals
 
 //Q1: Rewrite the program from Q2 using a verbatim string literal (hint: use the @ symbol).
+Console.WriteLine(@"c:\Users\JohnDoe\Documents\MyFile.txt");
 
 //Q2: Write a program that uses a verbatim string literal to display a multi-line string like this:
 //First Line
 //Second Line
 //Third Line
+Console.WriteLine(@"First Line ");
 
 //3. String Concatenation
 
 //Q1: Write a program that asks the user for their first name and last name separately, then combines them into a full name and prints:
 //Hello, [FullName]!
+Console.Write("Enter Your First Name  ");
+string FirstName = Console.ReadLine();
+
+Console.Write("Enter Your Last Name  ");
+string LastName = Console.ReadLine();
+
+string FullName =  FirstName +" " + LastName;
+Console.WriteLine($"Hello, {FullName}!");
 
 //Q2: Combine the following strings using the + operator and print the result:
 //string part1 = "Learning ";
 //string part2 = "C# is ";
 //string part3 = "fun!";
 //Expected Output: Learning C# is fun!
-
+string part1 = "Learning ";
+string part2 = "C# is ";
+string part3 = "fun!";
+Console.WriteLine(part1 + part2 + part3);
 
 //4. String Interpolation
 
