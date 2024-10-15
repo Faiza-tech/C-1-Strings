@@ -37,7 +37,7 @@ string FirstName = Console.ReadLine();
 Console.Write("Enter Your Last Name  ");
 string LastName = Console.ReadLine();
 
-string FullName =  FirstName +" " + LastName;
+string FullName = FirstName + " " + LastName;
 Console.WriteLine($"Hello, {FullName}!");
 
 //Q2: Combine the following strings using the + operator and print the result:
@@ -52,25 +52,50 @@ Console.WriteLine(part1 + part2 + part3);
 
 //4. String Interpolation
 
-//Q1: Write a program that asks the user for their name and age, and then prints a message like this using string interpolation:
-// Hello, [Name]! You are [Age] years old.
+string? nameUser;
+int ageUser;
+
+Console.WriteLine("Your name please");
+nameUser = Console.ReadLine();
+
+Console.WriteLine("Your age please");
+string? ageInput = Console.ReadLine();
+
+try
+{
+    ageUser = Convert.ToInt32(ageInput); // Convert the string input to an integer
+    Console.WriteLine($"Hello, {nameUser}! You are {ageUser} years old.");
+}
+catch (FormatException)
+{
+    Console.WriteLine("Invalid age input. Please enter a valid number.");
+}
 
 //Q2: Given two integers x = 15 and y = 25, use string interpolation to print their sum as part of the message:
 //The sum of 15 and 25 is 40.
-
+int x = 15 ;
+int y = 25;
+int z = x+y;
+Console.WriteLine($"The sum of {x} and {y} is {z}.");
 
 //5. Literal Strings
 
 
 //Q1: Write a program that prints the string "Hello" without using any variables or string concatenation.
-
+Console.WriteLine("Hello");
 //Q2: Write a program that outputs the sentence "Learning C# at 7 PM!" using a string literal.
-
+Console.WriteLine("Learning C# at 7 PM!");
 
 
 //6. String Manipulation
 
 //Q1: Write a program that asks the user for their name, and then prints the name in uppercase, lowercase, and with the first character capitalized (Title Case).
+string? name1;
+//string? user;
+Console.WriteLine("Your name please");
+name1 = Console.ReadLine();
+
+
 
 //Q2: Write a program that takes a sentence and prints the number of characters in the sentence, excluding any spaces.
 
